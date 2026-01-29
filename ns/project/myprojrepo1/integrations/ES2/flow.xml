@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FLOW VERSION="3.2" CLEANUP="true">
-  <COMMENT></COMMENT>
 
   <!-- nodes -->
 
@@ -193,9 +192,5 @@
 <MAPCOPY FROM="/value;1;0" TO="/sum;1;0">
 </MAPCOPY>
 </MAP>
-</INVOKE>
-
-<INVOKE NAME="Date" SERVICE="pub.date:getCurrentDate">
-  <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
