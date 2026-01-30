@@ -8,11 +8,19 @@ packages:
   gitUsername: sagmaak
   gitBranch: main
 services:
-- serviceName: project.myprojrepo1.integrations:ES2
+- serviceName: project.myprojrepo1.integrations:Copy_ES2Imported
   packages:
   - name: MyProjRepo1Project
     version: "1.0"
 - serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2105
+- serviceName: project.myprojrepo1.integrations:ES2
+  packages:
+  - name: MyProjRepo1Project
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
   packages:
   - name: WmPublic
     version: 11.1.0.0.2105
